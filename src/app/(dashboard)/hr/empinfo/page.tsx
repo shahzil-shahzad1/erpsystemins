@@ -97,10 +97,12 @@ const EmployeeManagementPage: React.FC = () => {
         <p className="text-zinc-800 dark:text-zinc-200 text-xs">Manage employee data and organizational insights</p>
         </div>
         {/* Navbar Section */}
-      <div className="relative z-20 flex flex-col md:flex-row gap-4">
-        <Navbar onNavLinkClick={(link) => console.log(`Navigating to: ${link}`)} />
-        <a href="/hr/empinfo/departments" className="bg-white/50 dark:bg-gray-800/50 text-black dark:text-white py-2 px-4 rounded-xl">Departments</a>
-      </div>
+        <div className="flex gap-3 items-center">
+          <div className="relative z-20 flex flex-col md:flex-row gap-4">
+            <Navbar onNavLinkClick={(link) => console.log(`Navigating to: ${link}`)} />
+          </div>
+            <a href="/hr/empinfo/departments" className="bg-white/50 dark:bg-gray-800/50 text-black dark:text-white py-2 px-4 rounded-xl">Departments</a>
+        </div>
       </div>
 
       {/* Employee Information Cards */}
