@@ -24,10 +24,10 @@ interface GrowthData {
   value: number;
 }
 
-interface ClientData {
-  id: string;
-  name: string;
-}
+// interface ClientData {
+//   id: string;
+//   name: string;
+// }
 
 interface TicketData {
   id: string;
