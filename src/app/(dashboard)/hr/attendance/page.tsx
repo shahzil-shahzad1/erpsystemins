@@ -71,9 +71,9 @@ const EmployeeAttendancePage: React.FC = () => {
         <h1 className={cn("text-lg font-bold text-zinc-900 dark:text-zinc-100", pacifico.className)} >Employee Attendance</h1>
         <p className="text-zinc-800 dark:text-zinc-200 text-xs">Track employee presence, absence, and leave</p>
         </div>
-        <div>
-        <a href="/hr/attendance/overview" className="text-orange-300 hover:text-orange-500">Overview</a>
-        <a href="/hr/attendance/overview" className="text-orange-300 hover:text-orange-500">Management</a>
+        <div className="flex gap-3 items-center">
+        <a href="/hr/attendance/overview" className="bg-white/50 dark:bg-gray-800/50 text-black dark:text-white">Overview</a>
+        <a href="/hr/attendance/overview" className="bg-white/50 dark:bg-gray-800/50 text-black dark:text-white">Management</a>
         </div>
       </div>
 
