@@ -99,8 +99,8 @@ const EmployeeManagementPage: React.FC = () => {
         {/* Navbar Section */}
       <div className="relative z-20 flex flex-col md:flex-row gap-4">
         <Navbar onNavLinkClick={(link) => console.log(`Navigating to: ${link}`)} />
+        <a href="/hr/empinfo/departments" className="bg-white/50 dark:bg-gray-800/50 text-black dark:text-white py-2 px-4 rounded-xl">Departments</a>
       </div>
-      <a href="/hr/empinfo/departments" className="bg-white/50 dark:bg-gray-800/50 text-black dark:text-white py-2 px-4 rounded-xl">Departments</a>
       </div>
 
       {/* Employee Information Cards */}
