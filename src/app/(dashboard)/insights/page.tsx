@@ -505,7 +505,8 @@ const App = () => {
           </div>
           <div>
             <h1 className={cn(
-              "text-lg font-bold bg-clip-text text-transparent bg-gradient-to-r from-orange-600 via-orange-500 to-orange-600 dark:from-orange-400 dark:via-orange-300 dark:to-orange-400"
+              "text-lg font-bold bg-clip-text text-transparent bg-gradient-to-r from-orange-600 via-orange-500 to-orange-600 dark:from-orange-400 dark:via-orange-300 dark:to-orange-400",
+               pacifico.className
             )}>
               Largify Insights
             </h1>
