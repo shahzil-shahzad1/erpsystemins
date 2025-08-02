@@ -13,10 +13,19 @@ import {
 } from 'recharts';
 
 // Type for the cn function parameters
-type ClassValue = string | boolean | null | undefined;
+// type ClassValue = string | boolean | null | undefined;
+
+import { cn } from "@/lib/utils";
+import { Pacifico } from "next/font/google";
+
+const pacifico = Pacifico({
+  subsets: ["latin"],
+  weight: ["400"],
+  variable: "--font-pacifico",
+});
 
 // A simple cn function for conditional classNames with proper typing
-const cn = (...classes: ClassValue[]): string => classes.filter(Boolean).join(' ');
+// const cn = (...classes: ClassValue[]): string => classes.filter(Boolean).join(' ');
 
 // Types for the dummy data
 interface GrowthData {
