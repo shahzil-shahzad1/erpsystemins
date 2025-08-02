@@ -71,11 +71,11 @@ const userGrowthData: GrowthData[] = [
   { name: 'Jun', value: 2390 },
 ];
 
-const newClientsData: ClientData[] = [
-  { id: 'C101', name: 'AlphaCorp' },
-  { id: 'C102', name: 'Beta Solutions' },
-  { id: 'C103', name: 'Gamma Inc.' },
-];
+// const newClientsData: ClientData[] = [
+//   { id: 'C101', name: 'AlphaCorp' },
+//   { id: 'C102', name: 'Beta Solutions' },
+//   { id: 'C103', name: 'Gamma Inc.' },
+// ];
 
 const recentTicketsData: TicketData[] = [
   { id: 'T234', subject: 'Login issue on mobile', status: 'Open' },
@@ -323,7 +323,7 @@ const Trends = () => {
   return (
     <StyledContainer>
       <h2 className="text-lg font-bold">User Growth Trends</h2>
-      <p className="text-sm text-gray-600 dark:text-gray-400">Insights into your user base's growth and composition.</p>
+      <p className="text-sm text-gray-600 dark:text-gray-400">Insights into your user base&apos;s growth and composition.</p>
 
       {/* Buttons for actions with new styling */}
       <div className="flex space-x-2">
@@ -500,7 +500,7 @@ const App = () => {
             )}>
               Largify Insights
             </h1>
-            <p className="text-xs text-gray-700 dark:text-gray-300">Monitor your company's performance</p>
+            <p className="text-xs text-gray-700 dark:text-gray-300">Monitor your company&apos;s performance</p>
           </div>
         </div>
 
